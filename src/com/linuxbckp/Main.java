@@ -13,5 +13,12 @@ package com.linuxbckp;
  */
 
 public class Main{
-    public static void main(String args[]){}
+    public static void main(String args[]){
+        FileInit f1=new FileInit();
+        f1.init();
+        FileSave f2=new FileSave();
+        f2.save();
+        FileOpen f3=new FileOpen();
+        f3.open();
+    }
 }
