@@ -2,18 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f655dfd3-2828-4eb3-946f-29c47e269ca6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/模板1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/blogguiautogenerator/com/linuxbckp/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/blogguiautogenerator/com/linuxbckp/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/linuxbckp/FileOpen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/linuxbckp/FileOpen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/linuxbckp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/linuxbckp/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -30,6 +29,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectId" id="1YGAGnRROVuOInV9G6FGNoGpVEP" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -41,7 +43,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gui" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -71,35 +75,63 @@
       <option name="presentableId" value="Default" />
       <updated>1582558464336</updated>
     </task>
+    <task id="LOCAL-00001" summary="static">
+      <created>1583764903601</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583764903601</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="static" />
+    <option name="LAST_COMMIT_MESSAGE" value="static" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="933" height="272" key="GridCell.Tab.0.bottom" timestamp="1583201203475">
+    <state x="544" y="72" width="822" height="969" key="CommitChangelistDialog2" timestamp="1583764903344">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="544" y="72" width="822" height="969" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1583764903344" />
+    <state x="753" y="255" width="424" height="525" key="FileChooserDialogImpl" timestamp="1584115079927">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="753" y="255" width="424" height="525" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1584115079927" />
+    <state width="1346" height="254" key="GridCell.Tab.0.bottom" timestamp="1583777712090">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="933" height="272" key="GridCell.Tab.0.bottom/0.27.1920.1053/332.1080.1366.768@0.27.1920.1053" timestamp="1583201203475" />
-    <state width="933" height="272" key="GridCell.Tab.0.center" timestamp="1583201203475">
+    <state width="1346" height="254" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1583777712090" />
+    <state width="1346" height="254" key="GridCell.Tab.0.center" timestamp="1583777712089">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="933" height="272" key="GridCell.Tab.0.center/0.27.1920.1053/332.1080.1366.768@0.27.1920.1053" timestamp="1583201203475" />
-    <state width="933" height="272" key="GridCell.Tab.0.left" timestamp="1583201203475">
+    <state width="1346" height="254" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1583777712089" />
+    <state width="1346" height="254" key="GridCell.Tab.0.left" timestamp="1583777712089">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="933" height="272" key="GridCell.Tab.0.left/0.27.1920.1053/332.1080.1366.768@0.27.1920.1053" timestamp="1583201203475" />
-    <state width="933" height="272" key="GridCell.Tab.0.right" timestamp="1583201203475">
+    <state width="1346" height="254" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1583777712089" />
+    <state width="1346" height="254" key="GridCell.Tab.0.right" timestamp="1583777712090">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="933" height="272" key="GridCell.Tab.0.right/0.27.1920.1053/332.1080.1366.768@0.27.1920.1053" timestamp="1583201203475" />
-    <state x="555" y="288" width="800" height="538" key="Vcs.Push.Dialog.v2" timestamp="1583199571914">
+    <state width="1346" height="254" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1583777712090" />
+    <state x="555" y="288" width="800" height="538" key="Vcs.Push.Dialog.v2" timestamp="1583764916818">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="555" y="288" width="800" height="538" key="Vcs.Push.Dialog.v2/0.27.1920.1053/332.1080.1366.768@0.27.1920.1053" timestamp="1583199571914" />
-    <state x="614" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1583199134399">
+    <state x="555" y="288" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1583764916818" />
+    <state x="614" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1584114803042">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="614" y="380" key="com.intellij.ide.util.TipDialog/0.27.1920.1053/332.1080.1366.768@0.27.1920.1053" timestamp="1583199134399" />
+    <state x="614" y="380" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1584114803042" />
+    <state x="237" y="96" width="1436" height="921" key="new project wizard" timestamp="1584115081416">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="237" y="96" width="1436" height="921" key="new project wizard/0.27.1920.1053@0.27.1920.1053" timestamp="1584115081416" />
   </component>
 </project>

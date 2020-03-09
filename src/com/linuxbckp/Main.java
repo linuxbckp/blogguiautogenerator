@@ -3,6 +3,10 @@ package com.linuxbckp;
 
 //use Jdk 13
 
+import static com.linuxbckp.FileInit.init;
+import static com.linuxbckp.FileOpen.open;
+import static com.linuxbckp.FileSave.save;
+
 /***  博客自动生成器
  *     部落格自動生成器
  *     Blog GUI Auto Generator
@@ -14,11 +18,11 @@ package com.linuxbckp;
 
 public class Main{
     public static void main(String args[]){
-        FileInit f1=new FileInit();
-        f1.init();
-        FileSave f2=new FileSave();
-        f2.save();
-        FileOpen f3=new FileOpen();
-        f3.open();
+        //new FileInit();
+        init();
+        //new FileSave();
+        save();
+        //new FileOpen();
+        open();
     }
 }

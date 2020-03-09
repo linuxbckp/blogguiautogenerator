@@ -5,7 +5,7 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class FileOpen {
-    void open(){
+    static void open(){
         String name="模板1";
         FileReader fr =null;
         File file = new File("./",name+".txt");

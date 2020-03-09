@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.FileWriter;
 
 public class FileSave {
-    void save(){
+    static void save(){
         String name="1";
         File file = new File("./",name+".txt");
         try{
