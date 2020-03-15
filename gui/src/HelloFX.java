@@ -1,5 +1,6 @@
 import javafx.application.Application;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
@@ -12,6 +13,8 @@ public class HelloFX extends Application {
         String javafxVersion = System.getProperty("javafx.version");
         Label l = new Label("Hello, JavaFX " + javafxVersion + ", running on Java " + javaVersion + ".");
         Scene scene = new Scene(new StackPane(l), 640, 480);
+        Button btn=new Button();
+        btn.setText("Say 'Hello World'");
         stage.setScene(scene);
         stage.show();
     }
