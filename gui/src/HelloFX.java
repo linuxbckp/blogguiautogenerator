@@ -10,6 +10,7 @@ import javafx.stage.Stage;
 
 import java.io.File;
 import java.io.IOException;
+import java.io.UnsupportedEncodingException;
 
 /**
  * 主程序
@@ -52,12 +53,13 @@ public class HelloFX extends Application{
 
     }
     @FXML
-    void save(){
+    void save() throws UnsupportedEncodingException {
         s1=viewTexts.getText();
+        String s3=new String(s1.getBytes(),"UTF-8");
         s2=outputName.getText();
         File file=new File("./"+s2);
         FileSave fs=new FileSave();
-        FileSave.save2(file,s1);
+        FileSave.save2(file,s3);
         nameInfo.setText("保存成功");
     }
     public static void main(String[] args) {
