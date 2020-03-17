@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="gui.jnlp">
   <information>
-    <title>gui</title>
-    <vendor>Unknown</vendor>
+    <title>Blog GUI Auto Generator</title>
+    <vendor>LinuxBCKP</vendor>
     <description>gui</description>
     <offline-allowed/>
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="gui.jar" size="11624" download="eager" />
+    <jar href="gui.jar" size="11686" download="eager" />
   </resources>
   <jfx:javafx-desc  width="900" height="600" main-class="HelloFX"  name="gui" />
   <update check="background"/>

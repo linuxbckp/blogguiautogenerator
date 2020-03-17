@@ -8,9 +8,9 @@
         <option name="height" value="600" />
         <option name="htmlPlaceholderId" value="" />
         <option name="nativeBundle" value="all" />
-        <option name="title" value="" />
-        <option name="vendor" value="" />
-        <option name="version" value="" />
+        <option name="title" value="Blog GUI Auto Generator" />
+        <option name="vendor" value="LinuxBCKP" />
+        <option name="version" value="2.0" />
         <option name="width" value="900" />
       </options>
     </properties>
